@@ -25,15 +25,15 @@
         </ul>
       </nav>
       <img
-        src="../images/logo-black.svg"
+        src="./images/logo-black.svg"
         class="logo_black"
         alt="Черный логотип с надписью Оно тебе надо"/>
 
       <ul class="contact_list">
-        <li class="header_contact_phone">
-          <a href="+99995555555">+9 999 555 5555</a>
+        <li class="contact_phone">
+          <a href="tel:+99995555555">+9 999 555 5555</a>
         </li>
-        <li class="header_contact_mail">
+        <li class="contact_mail">
           <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         </li>
         <li class="header_contact_address">
@@ -66,87 +66,75 @@
             </span>
         </p>
 
-        <div class="button">Сделать ставку</div>
+        <button class="button">Сделать ставку</button>
       </section>
 
-      <article class="lots">
+      <section class="lots">
+
         <h2 class="lots_title">Лоты</h2>
 
-        <div class="lots_card_first">
+        <ul class="lots_card_list">
+
+          <li class="lots_card_list_item card_first">
           <div class="overlay"></div>
-          <ul class="lots_card_filling">
-            <li class="lots_card_header">
-              Фильм режиссёра,
-              <span class="lots_card_first_header_another_spacing">
-                который бросил
-                </span>
-              киношколу
-            </li>
-            <li class="lots_card_first_description">
+            <h3 class="lots_card_header">
+              Фильм режиссёра, который бросил киношколу
+            </h3>
+            <p class="lots_card_description">
               Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
               ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
-            </li>
-          </ul>
-        </div>
+            </p>
+          </li>
 
-        <div class="lots_card_second">
+          <li class="lots_card_list_item card_second">
           <div class="overlay"></div>
-          <ul class="lots_card_filling">
-            <li class="lots_card_header">
+            <h3 class="lots_card_header">
               Книга, где описан один скучный день из жизни рекламного агента
-            </li>
-            <li class="lots_card_second_description">
+            </h3>
+            <p class="lots_card_description">
               Объёмом почти в тысячу страниц. Иногда без знаков препинания и с
               переходами на древнеанглийский. В ней одновременно рассказывается
               о 16 июня 1904 года и об истории литературы, начиная с античных
               времён. И это всё накладывается на эпическую поэму Гомера. Сколько
               бы вы поставили на «Улисса» Джеймса Джойса?
-            </li>
-          </ul>
-        </div>
+            </p>
+        </li>
 
-        <div class="lots_card_third">
+        <li class="lots_card_list_item card_third">
           <div class="overlay"></div>
-          <ul class="lots_card_filling">
-            <li class="lots_card_header">
+            <h3 class="lots_card_header">
               Картина, которую повторит даже 5-летний сын маминой подруги
-            </li>
-            <li class="lots_card_third_description">
+            </h3>
+            <p class="lots_card_description">
               Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то
               похожее на инфузорию-туфельку. Никаких полей, лесов, котиков…
               Сколько бы вы на такое поставили, если бы не знали, что это — одна
               из революционных работ Кандинского?
-            </li>
-          </ul>
-        </div>
+            </p>
+      </ul>
 
-        <span class="lots_more_info">
-          <a href="#0">посмотреть больше</a>
-        </span>
-      </article>
+          <a class="lots_more_info" href="#0">посмотреть больше</a>
+      </section>
 
       <section class="about">
-        <div class="logo_column">
-          <img
-            src="../images/ellipse-black.svg"
-            class="ellipse"
-            alt="Чёрный фон логотипа"/>
-          <img
-            src="../images/logo-white.svg"
-            class="logo_white"
-            alt="Белый логотип с надписью Оно тебе надо"/>
-        </div>
 
-        <h3 class="about_header">Об аукционе</h3>
+          <img
+            src="./images/logo.png"
+            class="logo_ellipse"
+            alt="Чёрный логотип с надписью Оно тебе надо"/>
+
+        <div class="about_column">
+          
+        <h2 class="about_header">Об аукционе</h2>
         <div class="about_description_block">
-          <p class="about_description_block_first">
+          <p>
             Здесь вы не встретите очередное пафосное собрание невероятно
             дорогого антиквариата. Наши лоты вообще не должны были попасть ни на
             один аукцион. Потому что кому нужен дневник девочки-подростка или
             картина, которую может нарисовать даже ребёнок? Кому нужны все эти
             странные вещи, созданные любителями?
           </p>
-          <p class="about_description_block_second">
+          <p>
             Слишком сложные или, наоборот, слишком простые. Опережающие своё
             время. В пух и прах растерзанные критиками. Непринятые и непонятые.
             Когда-то они казались просто неудачными. Но, несмотря на критику,
@@ -155,16 +143,17 @@
             продолжали верить их создатели. И сейчас эти лоты стали культовыми.
           </p>
         </div>
+        </div>
       </section>
     </main>
 
     <footer class="footer">
       <div class="footer_contacts">
         <ul class="footer_contacts_list">
-          <li class="footer_contacts_phone">
-            <a href="+99995555555">+9 999 555 5555</a>
+          <li class="contact_phone">
+            <a href="tel:+99995555555">+9 999 555 5555</a>
           </li>
-          <li class="footer_contacts_mail">
+          <li class="contact_mail">
             <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
           </li>
           <li class="footer_contacts_address">
@@ -190,10 +179,24 @@
       </nav>
 
       <div class="footer_socials">
-        <img
-          src="../images/socials.svg"
-          class="socials_icon"
-          alt="Иконки социальных сетей"/>
+        <a href="#0">
+          <img
+            src="./images/yt.svg"
+            class="socials_icon"
+            alt="Иконка, содержащая ссылку на Ютуб"/>
+        </a>
+          <a href="#0">
+            <img
+            src="./images/vk.svg"
+            class="socials_icon"
+            alt="Иконка, содержащая ссылку на Вконтакте"/>
+        </a>
+        <a href="#0">
+            <img
+            src="./images/pinterest.svg"
+            class="socials_icon"
+            alt="Иконка, содержащая ссылку на Пинтерест"/>
+        </a>
       </div>
     </footer>
   </body>
