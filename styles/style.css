@@ -60,13 +60,7 @@ body {
   font-style: normal;
 }
 
-.contact_phone {
-  display: inline-block;
-  text-decoration-line: underline;
-  text-underline-offset: 4px;
-}
-
-.contact_mail {
+.contact_links {
   display: inline-block;
   text-decoration-line: underline;
   text-underline-offset: 4px;
@@ -248,17 +242,14 @@ body {
 
 .card_first {
   background-image: url(../images/card-lot-01.jpg);
-  background-size: cover;
 }
 
 .card_second {
   background-image: url(../images/card-lot-02.jpg);
-  background-size: cover;
 }
 
 .card_third {
   background-image: url(../images/card-lot-03.png);
-  background-size: cover;
 }
 
 .lots_more_info {
@@ -274,7 +265,6 @@ body {
 .about {
   display: flex;
   flex-shrink: 0;
-  box-sizing: content-box;
   min-width: 100%;
   min-height: 596px;
   margin-top: 181px;
